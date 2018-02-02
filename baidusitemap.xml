@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://daijianwei.cc/first.html</loc>
+    <lastmod>2018-01-31T11:52:02.492Z</lastmod>
+    <data>
+        <display>
+        <title>first</title>
+        <pubTime>2018-01-31T11:50:05.000Z</pubTime>
+        
+        <tag>开始</tag>
+         
+        <tag>first</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://daijianwei.cc/hello-world.html</loc>
+    <lastmod>2018-01-31T09:12:10.718Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2018-01-31T09:12:10.718Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
