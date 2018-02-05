@@ -2,11 +2,11 @@
 <search>
   <entry>
     <title><![CDATA[first]]></title>
-    <url>%2Ffirst.html</url>
+    <url>%2FJava%208%E6%96%B0%E7%9A%84%E6%97%A5%E6%9C%9F%E4%BD%BF%E7%94%A8.html</url>
     <content type="text"><![CDATA[Java 8新的日期使用学习笔记/java8时间处理新的日期API LocalDate: 表示没有时区的日期, LocalDate是不可变并且线程安全的 LocalTime: 表示没有时区的时间, LocalTime是不可变并且线程安全的 LocalDateTime: 表示没有时区的日期时间, LocalDateTime是不可变并且线程安全的 LocalDate LocalDate代表一个IOS格式(yyyy-MM-dd)的日期，可以存储 生日、纪念日等日期。 获取当前的日期： 12LocalDate localDate = LocalDate.now();System.out.println("localDate:" + localDate);//返回localDate:2017-07-31 LocalDate 指定特定的返回格式 12345678LocalDate localDate = LocalDate.parse("2017-06-28");System.out.println("localDate:" + localDate);LocalDate localDate2 = LocalDate.of(2017,6,21);// 如果指定41System.out.println("localDate2:" + localDate2);//localDate:2017-06-28//localDate2:2017-06-21 ps: 如果指定一个不存在的日期,API会报相应的异常 1Invalid value for DayOfMonth (valid values 1 - 28/31): 41 查看丰富的API形式 为今天添加一天/减少一天 12LocalDate tomorrow = LocalDate.now().plusDays(1);// tomorrow:2017-08-01LocalDate yesterday = LocalDate.now().minusDays(1);// yesterday 2017-07-30 为今天减少一个月 1LocalDate prevMonth = LocalDate.now().minus(1, ChronoUnit.MONTHS);//2017-06-30 当前的日期是星期几 12DayOfWeek dayOfWeek = LocalDate.parse("2017-07-29").getDayOfWeek();// SATURDAY 当前的日期的天数 12int dayOfWeek = LocalDate.parse("2017-07-29").getDayOfMonth();//29 试试今年是否是闰年 12boolean isLeap = LocalDate.parse("2017-07-29").isLeapYear();// false]]></content>
       <tags>
         <tag>开始</tag>
-        <tag>first</tag>
+        <tag>java8</tag>
       </tags>
   </entry>
   <entry>
